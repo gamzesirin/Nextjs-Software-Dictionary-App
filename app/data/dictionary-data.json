@@ -1,0 +1,464 @@
+{
+	"A": [
+		{
+			"title": "Algoritma",
+			"shortDescription": "Bir problemi çözmek veya belirli bir amaca ulaşmak için tasarlanmış adım adım talimatlar dizisi.",
+			"fullDescription": [
+				"Algoritma, bilgisayar biliminde ve matematikte, belli bir problemi çözmek veya belirli bir amaca ulaşmak için tasarlanmış yol anlamına gelir. Bilgisayar programcılığının temelini oluşturur.",
+				"Algoritmalar, veri işleme, hesaplama yapma ve otomatik akıl yürütme gibi işlemleri gerçekleştirmek için kullanılır. İyi bir algoritma, etkili, verimli ve genel kullanıma uygun olmalıdır.",
+				"Günlük hayatta da farkında olmadan birçok algoritma kullanırız. Örneğin, yemek tarifleri veya bir mobilyayı monte etme talimatları birer algoritmadır.",
+				"Programlamada, algoritmalar genellikle akış şemaları veya sözde kod kullanılarak ifade edilir ve daha sonra bir programlama diline çevrilir."
+			],
+			"image": "/images/algoritma.png",
+			"relatedTerms": ["Veri Yapısı", "Akış Şeması", "Sözde Kod", "Karmaşıklık Analizi"]
+		},
+		{
+			"title": "API",
+			"shortDescription": "Uygulama Programlama Arayüzü, yazılım bileşenlerinin birbirleriyle nasıl iletişim kuracağını tanımlayan bir set.",
+			"fullDescription": [
+				"API (Application Programming Interface - Uygulama Programlama Arayüzü), bir yazılımın başka bir yazılımla iletişim kurmasına olanak tanıyan bir dizi tanım, protokol ve araçtır.",
+				"API'ler, farklı yazılım bileşenlerinin birbirleriyle nasıl etkileşime geçeceğini belirler. Bu, geliştiricilerin karmaşık işlevleri kolayca entegre etmelerini sağlar.",
+				"Web API'leri, mobil uygulama API'leri, işletim sistemi API'leri ve veritabanı API'leri gibi çeşitli türleri vardır. Her biri, belirli bir platformda veya sistemde işlevsellik sağlar.",
+				"API'ler, yazılım geliştirme sürecini hızlandırır ve standartlaştırır. Örneğin, bir hava durumu uygulaması, hava durumu verilerini kendi toplamak yerine bir hava durumu API'si kullanabilir."
+			],
+			"image": "/images/API.png",
+			"relatedTerms": ["REST", "SOAP", "Endpoint", "Mikroservisler"]
+		},
+		{
+			"title": "Agile (Çevik) Yazılım Geliştirme",
+			"shortDescription": "Esnek, işbirlikçi ve müşteri odaklı bir yazılım geliştirme yaklaşımı.",
+			"fullDescription": [
+				"Agile (Çevik) yazılım geliştirme, geleneksel 'şelale' modelinin alternatifi olarak ortaya çıkmış bir yaklaşımdır. Bu metodoloji, yazılım geliştirme sürecini daha esnek, işbirlikçi ve müşteri odaklı hale getirir.",
+				"Agile yaklaşımında, büyük projeler küçük, yönetilebilir parçalara (sprint'ler) bölünür. Her sprint sonunda, çalışan bir ürün parçası ortaya çıkar ve müşteriye gösterilir.",
+				"Bu yöntem, değişen gereksinimlere hızlı adapte olmayı, sürekli geri bildirim almayı ve kaliteyi artırmayı hedefler. Scrum, Kanban, Extreme Programming (XP) gibi popüler Agile çerçeveleri vardır.",
+				"Agile manifesto'su, bireyleri ve etkileşimleri süreçlerden ve araçlardan, çalışan yazılımı kapsamlı dökümantasyondan, müşteriyle işbirliğini sözleşme pazarlıklarından, değişime yanıt vermeyi bir plana bağlı kalmaktan üstün tutar."
+			],
+			"image": "/images/agile.jpg",
+			"relatedTerms": ["Scrum", "Kanban", "Sprint", "User Story"]
+		}
+	],
+	"B": [
+		{
+			"title": "Backend",
+			"shortDescription": "Bir uygulamanın sunucu tarafında çalışan ve veri işleme, depolama gibi işlemleri yöneten bölümü.",
+			"fullDescription": [
+				"Backend, bir web uygulamasının veya yazılımın kullanıcı arayüzünün arkasında çalışan kısmıdır. Veri işleme, depolama, güvenlik ve uygulama mantığı gibi işlevleri yönetir.",
+				"Backend geliştirme genellikle sunucu tarafı programlama dilleri (örneğin, Python, Java, Ruby, PHP) ve veritabanları (örneğin, MySQL, PostgreSQL, MongoDB) kullanılarak yapılır.",
+				"Backend sistemleri, frontend (kullanıcı arayüzü) ile API'ler aracılığıyla iletişim kurar ve uygulamanın temel işlevselliğini sağlar.",
+				"Ölçeklenebilirlik, güvenlik ve performans, backend geliştirmede önemli konulardır. Büyük ölçekli uygulamalar genellikle yük dengeleme, önbellekleme ve dağıtık sistemler gibi ileri backend teknikleri kullanır."
+			],
+			"image": "/images/backend.png",
+			"relatedTerms": ["Frontend", "Full-stack", "Sunucu", "Veritabanı"]
+		},
+		{
+			"title": "Bug (Hata)",
+			"shortDescription": "Bir programın beklenmeyen veya hatalı davranışına neden olan kod kusuru.",
+			"fullDescription": [
+				"Bug (hata), bir yazılım programında istenmeyen veya beklenmeyen bir davranışa neden olan bir kod kusurudur. Bu terim, bilgisayar biliminin öncülerinden Grace Hopper'ın 1947'de Harvard Mark II bilgisayarında gerçek bir böceğin neden olduğu arızayı keşfetmesiyle popüler hale gelmiştir.",
+				"Buglar, basit yazım hatalarından karmaşık mantık hatalarına kadar çeşitli nedenlerden kaynaklanabilir. Bazı yaygın bug türleri arasında syntax hataları, mantık hataları, aritmetik hatalar ve bellek sızıntıları sayılabilir.",
+				"Hata ayıklama (debugging), yazılım geliştirme sürecinin önemli bir parçasıdır. Geliştiriciler, hataları tespit etmek ve düzeltmek için çeşitli araçlar ve teknikler kullanır.",
+				"Bazı hatalar kritik olabilir ve güvenlik açıklarına, veri kaybına veya sistemin çökmesine neden olabilir. Bu nedenle, düzenli kod incelemeleri ve kapsamlı test süreçleri, kaliteli yazılım geliştirmenin temel unsurlarıdır."
+			],
+			"image": "/images/bug.png",
+			"relatedTerms": ["Debugging", "Hata Ayıklama", "Test", "Kalite Güvencesi"]
+		}
+	],
+	"C": [
+		{
+			"title": "Compiler (Derleyici)",
+			"shortDescription": "Yüksek seviyeli programlama dilini makine diline çeviren yazılım.",
+			"fullDescription": [
+				"Compiler (derleyici), yüksek seviyeli bir programlama dilinde yazılmış kaynak kodu, bilgisayarın doğrudan çalıştırabileceği makine diline veya ara bir dile çeviren bir yazılım aracıdır.",
+				"Derleme süreci genellikle birkaç aşamadan oluşur: sözdizimsel analiz (parsing), semantik analiz, kod optimizasyonu ve kod üretimi. Bu süreç, programın çalıştırılmadan önce tamamen makine diline çevrilmesini sağlar.",
+				"Derleyiciler, programlama dillerinin verimliliğini ve taşınabilirliğini artırır. Aynı kaynak kod, farklı işlemci mimarileri için ayrı ayrı derlenebilir.",
+				"C, C++, Rust gibi diller genellikle derleyici kullanırken, Python, JavaScript gibi diller genellikle interpreter (yorumlayıcı) kullanır. Ancak, JIT (Just-In-Time) derleme gibi hibrit yaklaşımlar da mevcuttur."
+			],
+			"image": "/images/compiler.png",
+			"relatedTerms": ["Interpreter", "Assembler", "Kaynak Kodu", "Makine Dili"]
+		},
+		{
+			"title": "CRUD",
+			"shortDescription": "Create (Oluştur), Read (Oku), Update (Güncelle), Delete (Sil) işlemlerinin kısaltması.",
+			"fullDescription": [
+				"CRUD, veritabanı tabanlı uygulamalarda temel dört işlemi temsil eden bir kısaltmadır: Create (Oluştur), Read (Oku), Update (Güncelle) ve Delete (Sil).",
+				"Create: Yeni veri ekleme işlemidir. Örneğin, yeni bir kullanıcı kaydı oluşturma.",
+				"Read: Mevcut veriyi okuma veya alma işlemidir. Örneğin, bir kullanıcının profilini görüntüleme.",
+				"Update: Mevcut veriyi değiştirme işlemidir. Örneğin, bir kullanıcının adresini güncelleme.",
+				"Delete: Mevcut veriyi silme işlemidir. Örneğin, bir kullanıcı hesabını kaldırma.",
+				"CRUD operasyonları, çoğu web uygulamasının ve API'nin temelini oluşturur. RESTful API'lerde, bu işlemler genellikle HTTP metodları (POST, GET, PUT/PATCH, DELETE) ile eşleştirilir."
+			],
+			"image": "/images/CRUD.jpg",
+			"relatedTerms": ["Veritabanı", "RESTful API", "HTTP Metodları", "ORM"]
+		}
+	],
+	"D": [
+		{
+			"title": "DevOps",
+			"shortDescription": "Yazılım geliştirme (Dev) ve IT operasyonlarını (Ops) birleştiren bir yaklaşım.",
+			"fullDescription": [
+				"DevOps, yazılım geliştirme (Development) ve IT operasyonlarını (Operations) birleştiren bir kültür, felsefe ve uygulama setidir. Bu yaklaşım, organizasyonların yüksek hızda yazılım geliştirmesini ve daha iyi hizmet sunmasını sağlar.",
+				"DevOps'un temel prensipleri arasında otomasyonu artırmak, ekipler arası işbirliğini geliştirmek, sürekli entegrasyon ve sürekli dağıtım (CI/CD) uygulamak yer alır.",
+				"Bu metodoloji, geleneksel 'silo' yaklaşımını kırarak, geliştirme ve operasyon ekiplerinin daha yakın çalışmasını sağlar. Bu, daha hızlı yazılım yayınları, daha az hata ve müşteri ihtiyaçlarına daha hızlı yanıt verme gibi avantajlar sağlar.",
+				"DevOps araçları arasında version kontrol sistemleri (Git), CI/CD araçları (Jenkins, GitLab CI), konteynerizasyon platformları (Docker, Kubernetes) ve altyapı otomasyon araçları (Ansible, Terraform) bulunur."
+			],
+			"image": "/images/devops.jpg",
+			"relatedTerms": ["CI/CD", "Agile", "Konteynerizasyon", "Altyapı as Code"]
+		},
+		{
+			"title": "Dağıtık Sistemler",
+			"shortDescription": "Birbirine bağlı birden fazla bilgisayarın bir ağ üzerinden iletişim kurarak tek bir sistem gibi çalıştığı bilgisayar ağları.",
+			"fullDescription": [
+				"Dağıtık sistemler, bir ağ üzerinden birbirine bağlı ve iletişim halinde olan birden fazla bilgisayarın veya sunucunun oluşturduğu bir sistemdir. Bu sistemler, kullanıcılara tek bir birleşik sistem gibi görünür.",
+				"Bu sistem türü, yük dengeleme, yüksek erişilebilirlik ve hata toleransı gibi avantajlar sağlar. Büyük ölçekli uygulamalar, bulut bilişim hizmetleri ve blockchain teknolojileri dağıtık sistemlere örnektir.",
+				"Dağıtık sistemlerin tasarımında, ağ gecikmesi, senkronizasyon, tutarlılık ve ölçeklenebilirlik gibi zorlukların üstesinden gelmek gerekir.",
+				"CAP teoremi, dağıtık sistemlerde Tutarlılık (Consistency), Erişilebilirlik (Availability) ve Bölüm Toleransı (Partition Tolerance) arasındaki ilişkiyi açıklar ve bu üç özellikten aynı anda iki tanesinin seçilebileceğini belirtir."
+			],
+			"image": "/images/dagıtık.jpg",
+			"relatedTerms": ["Bulut Bilişim", "Blockchain", "CAP Teoremi", "Tutarlılık"]
+		},
+		{
+			"title": "Docker",
+			"shortDescription": "Uygulamaları konteynerler içinde paketleyen, dağıtan ve çalıştıran bir platform.",
+			"fullDescription": [
+				"Docker, uygulamaları konteynerler adı verilen standartlaştırılmış birimler içinde paketleyen, dağıtan ve çalıştıran açık kaynaklı bir platformdur.",
+				"Konteynerler, bir uygulamanın çalışması için gereken tüm bağımlılıkları (kütüphaneler, sistem araçları, kod ve çalışma zamanı) içerir. Bu, uygulamaların farklı bilgisayarlarda tutarlı bir şekilde çalışmasını sağlar.",
+				"Docker, 'bir kere oluştur, her yerde çalıştır' felsefesini benimser. Bu, geliştirme, test ve production ortamları arasındaki tutarsızlıkları azaltır.",
+				"Dockerfile, bir Docker imajının nasıl oluşturulacağını tanımlayan bir metin dosyasıdır. Docker Compose ise birden fazla konteyneri tanımlamak ve yönetmek için kullanılır.",
+				"Docker, mikroservis mimarileri, CI/CD süreçleri ve bulut tabanlı dağıtımlar için özellikle faydalıdır."
+			],
+			"image": "/images/docker.jpeg",
+			"relatedTerms": ["Konteynerizasyon", "Mikroservisler", "Kubernetes", "DevOps"]
+		}
+	],
+	"E": [
+		{
+			"title": "Entegrasyon Testi",
+			"shortDescription": "Farklı yazılım modüllerinin veya bileşenlerinin bir araya getirildiğinde doğru çalışıp çalışmadığını kontrol eden test türü.",
+			"fullDescription": [
+				"Entegrasyon testi, bir yazılım sisteminin farklı bileşenlerinin veya modüllerinin bir araya getirildiğinde doğru bir şekilde çalışıp çalışmadığını kontrol etmek için yapılan bir test türüdür.",
+				"Bu test türü, birim testlerinden sonra ve sistem testlerinden önce gerçekleştirilir. Amacı, farklı bileşenler arasındaki arayüzleri ve etkileşimleri doğrulamaktır.",
+				"Entegrasyon testleri, modüller arası veri akışını, API çağrılarını, veritabanı etkileşimlerini ve diğer sistem bileşenleri arasındaki iletişimi kontrol eder.",
+				"Bu testler, 'Big Bang' (tüm modüllerin aynı anda entegre edilmesi) veya 'Aşamalı' (modüllerin kademeli olarak entegre edilmesi) yaklaşımlarıyla gerçekleştirilebilir.",
+				"Entegrasyon testleri, karmaşık sistemlerde hataların erken tespit edilmesine yardımcı olur ve sistemin genel kalitesini artırır."
+			],
+			"image": "/images/entegrasyon.png",
+			"relatedTerms": ["Birim Testi", "Sistem Testi", "Test Güdümlü Geliştirme", "Sürekli Entegrasyon"]
+		}
+	],
+	"F": [
+		{
+			"title": "Framework (Çerçeve)",
+			"shortDescription": "Yazılım geliştirmeyi hızlandıran ve standartlaştıran, önceden tanımlanmış fonksiyonlar ve yapılar sunan yazılım platformu.",
+			"fullDescription": [
+				"Framework (çerçeve), yazılım geliştiricilere belirli bir tür yazılım uygulaması oluşturmak için temel bir yapı sağlayan bir yazılım platformu veya kütüphane setidir.",
+				"Frameworkler, yaygın programlama görevleri için önceden yazılmış kod, sınıflar ve fonksiyonlar sağlayarak geliştirme sürecini hızlandırır ve standartlaştırır.",
+				"Bir framework kullanmak, geliştiricilerin sıfırdan başlamak yerine, var olan bir yapı üzerine inşa etmelerine olanak tanır. Bu, kod tekrarını azaltır ve daha tutarlı, bakımı kolay uygulamalar oluşturmayı sağlar.",
+				"Popüler web frameworkleri arasında Django (Python), Ruby on Rails (Ruby), Angular ve React (JavaScript) sayılabilir. Mobil uygulama geliştirme için ise Flutter ve React Native gibi frameworkler mevcuttur.",
+				"Frameworkler genellikle belirli bir tasarım deseni (örneğin, MVC - Model-View-Controller) üzerine kuruludur ve bu deseni uygulamayı teşvik eder."
+			],
+			"image": "/images/framework.jpg",
+			"relatedTerms": ["Kütüphane", "API", "MVC", "Tasarım Desenleri"]
+		}
+	],
+	"G": [
+		{
+			"title": "Git",
+			"shortDescription": "Dağıtık versiyon kontrol sistemi.",
+			"fullDescription": [
+				"Git, yazılım geliştirme sürecinde kod değişikliklerini izlemek ve yönetmek için kullanılan dağıtık bir versiyon kontrol sistemidir.",
+				"Linus Torvalds tarafından 2005 yılında Linux çekirdeğinin geliştirilmesi için oluşturulan Git, hızla popülerlik kazanmış ve günümüzde en yaygın kullanılan versiyon kontrol sistemi haline gelmiştir.",
+				"Git, geliştiricilerin aynı proje üzerinde paralel olarak çalışmasına, değişiklikleri izlemesine, eski versiyonlara dönmesine ve kod dalları (branch) oluşturarak deneysel özellikler üzerinde çalışmasına olanak tanır.",
+				"Temel Git komutları arasında 'commit' (değişiklikleri kaydetme), 'push' (değişiklikleri uzak depoya gönderme), 'pull' (değişiklikleri uzak depodan alma) ve 'merge' (dalları birleştirme) bulunur.",
+				"GitHub, GitLab ve Bitbucket gibi platformlar, Git tabanlı projeler için uzak depolar ve işbirliği araçları sağlar."
+			],
+			"image": "/images/git.png",
+			"relatedTerms": ["Versiyon Kontrolü", "GitHub", "Branch", "Merge"]
+		}
+	],
+	"H": [
+		{
+			"title": "HTTP (Hypertext Transfer Protocol)",
+			"shortDescription": "Web tarayıcıları ve web sunucuları arasında veri iletişimini sağlayan uygulama katmanı protokolü.",
+			"fullDescription": [
+				"HTTP (Hypertext Transfer Protocol), World Wide Web'in temelini oluşturan ve web tarayıcıları ile web sunucuları arasında veri alışverişini sağlayan bir uygulama katmanı protokolüdür.",
+				"İstemci-sunucu modelini kullanan HTTP, istemcinin (genellikle web tarayıcısı) sunucuya bir istek göndermesi ve sunucunun bu isteğe yanıt vermesi prensibine dayanır.",
+				"HTTP metodları arasında GET (veri alma), POST (veri gönderme), PUT (veri güncelleme), DELETE (veri silme) gibi yaygın kullanılan metodlar bulunur.",
+				"HTTPS (HTTP Secure), HTTP'nin şifrelenmiş versiyonudur ve güvenli iletişim sağlamak için SSL/TLS protokollerini kullanır.",
+				"HTTP/2 ve HTTP/3 gibi yeni versiyonlar, performansı artırmak ve modern web uygulamalarının ihtiyaçlarını karşılamak için geliştirilmiştir."
+			],
+			"image": "/images/http.png",
+			"relatedTerms": ["HTTPS", "REST", "API", "Web Sunucusu"]
+		}
+	],
+	"I": [
+		{
+			"title": "IDE (Integrated Development Environment)",
+			"shortDescription": "Yazılım geliştirme için gerekli araçları tek bir arayüzde birleştiren kapsamlı uygulama.",
+			"fullDescription": [
+				"IDE (Integrated Development Environment - Entegre Geliştirme Ortamı), yazılım geliştiricilere kod yazma, düzenleme, derleme, hata ayıklama ve test etme gibi temel geliştirme görevleri için gerekli araçları tek bir arayüzde sunan kapsamlı bir yazılım uygulamasıdır.",
+				"Tipik bir IDE, kod editörü, derleyici veya yorumlayıcı, hata ayıklayıcı (debugger), kod tamamlama, refaktoring araçları ve sürüm kontrol sistemi entegrasyonu gibi özellikler içerir.",
+				"IDEler genellikle belirli programlama dilleri veya platformlar için özelleştirilmiştir. Örneğin, Visual Studio (.NET), IntelliJ IDEA (Java), PyCharm (Python) gibi.",
+				"Modern IDEler, eklentiler aracılığıyla özelleştirilebilir ve genişletilebilir, bu da geliştiricilerin kendi iş akışlarına uygun ortamlar oluşturmasına olanak tanır.",
+				"IDEler, kod kalitesini artırma, geliştirme sürecini hızlandırma ve ekip işbirliğini kolaylaştırma gibi avantajlar sunar."
+			],
+			"image": "/images/ide.jpg",
+			"relatedTerms": ["Kod Editörü", "Derleyici", "Hata Ayıklayıcı", "Versiyon Kontrolü"]
+		}
+	],
+	"J": [
+		{
+			"title": "JSON (JavaScript Object Notation)",
+			"shortDescription": "Veri alışverişi için kullanılan, insan tarafından okunabilir metin tabanlı bir veri formatı.",
+			"fullDescription": [
+				"JSON (JavaScript Object Notation), veri alışverişi için kullanılan hafif, metin tabanlı ve dil bağımsız bir veri formatıdır.",
+				"JSON, anahtar-değer çiftleri ve sıralı liste yapıları kullanarak verileri temsil eder. Bu yapı, hem insanlar tarafından kolayca okunabilir hem de makineler tarafından kolayca ayrıştırılabilir.",
+				"Yaygın olarak web uygulamalarında, özellikle sunucu-istemci arasındaki veri alışverişinde kullanılır. RESTful API'lerde standart veri formatı olarak tercih edilir.",
+				"JSON, JavaScript'ten türetilmiş olsa da, birçok programlama dili tarafından desteklenir ve kolayca işlenebilir.",
+				"XML'e göre daha az detaylı syntax'a sahip olması, JSON'un daha hızlı işlenmesini ve daha az bant genişliği kullanmasını sağlar."
+			],
+			"image": "/images/json.png",
+			"relatedTerms": ["API", "RESTful", "XML", "Veri Serileştirme"]
+		}
+	],
+	"K": [
+		{
+			"title": "Kubernetes",
+			"shortDescription": "Konteynerleştirilmiş uygulamaların otomatik dağıtımını, ölçeklendirmesini ve yönetimini sağlayan açık kaynaklı platform.",
+			"fullDescription": [
+				"Kubernetes (K8s olarak da bilinir), konteynerleştirilmiş uygulamaların otomatik dağıtımını, ölçeklendirmesini ve yönetimini sağlayan açık kaynaklı bir konteyner orkestrasyon platformudur.",
+				"Google tarafından geliştirilen ve daha sonra Cloud Native Computing Foundation'a devredilen Kubernetes, büyük ölçekli, dağıtık sistemlerin yönetimini kolaylaştırır.",
+				"Kubernetes, uygulamaları 'pod' adı verilen en küçük dağıtılabilir birimler içinde gruplar ve bu podları yönetir. Ayrıca, yük dengeleme, otomatik ölçeklendirme ve kendini onarma gibi özellikler sunar.",
+				"Declarative configuration kullanarak, sistem yöneticileri ve DevOps ekipleri, uygulamaların istenen durumunu tanımlayabilir ve Kubernetes bu durumu korumak için gerekli eylemleri otomatik olarak gerçekleştirir.",
+				"Kubernetes, bulut-yerel uygulamalar ve mikroservis mimarileri için özellikle uygundur ve birçok bulut sağlayıcısı tarafından desteklenir."
+			],
+			"image": "/images/kubernetes.jpg",
+			"relatedTerms": ["Docker", "Konteynerizasyon", "Mikroservisler", "DevOps"]
+		}
+	],
+
+	"L": [
+		{
+			"title": "Linux",
+			"shortDescription": "Açık kaynaklı, Unix benzeri işletim sistemi çekirdeği ve işletim sistemleri ailesi.",
+			"fullDescription": [
+				"Linux, Linus Torvalds tarafından 1991 yılında geliştirilen açık kaynaklı bir işletim sistemi çekirdeğidir. Aynı zamanda bu çekirdek etrafında oluşturulan işletim sistemleri ailesini de ifade eder.",
+				"Linux, UNIX benzeri bir işletim sistemidir ve açık kaynak felsefesinin en önemli örneklerinden biridir. Kullanıcılar, geliştiriciler ve şirketler tarafından ücretsiz olarak kullanılabilir, değiştirilebilir ve dağıtılabilir.",
+				"Farklı amaçlar için tasarlanmış birçok Linux dağıtımı (distro) mevcuttur. Örneğin, Ubuntu, Fedora, Debian, CentOS gibi popüler dağıtımlar vardır.",
+				"Linux, sunuculardan akıllı telefonlara, süper bilgisayarlardan gömülü sistemlere kadar geniş bir yelpazede kullanılır. Android işletim sistemi de Linux çekirdeği üzerine kuruludur.",
+				"Güvenlik, kararlılık ve özelleştirilebilirlik, Linux'un öne çıkan özelliklerindendir. Açık kaynak modeli sayesinde, güvenlik açıkları hızla tespit edilip düzeltilebilir."
+			],
+			"image": "/images/linux.jpg",
+			"relatedTerms": ["Unix", "Açık Kaynak", "Shell", "Kernel", "Dağıtım"]
+		}
+	],
+	"M": [
+		{
+			"title": "Machine Learning (Makine Öğrenmesi)",
+			"shortDescription": "Bilgisayar sistemlerinin, veri ve deneyimlerden öğrenerek performanslarını artırmasını sağlayan yapay zeka alt dalı.",
+			"fullDescription": [
+				"Machine Learning (Makine Öğrenmesi), bilgisayar sistemlerinin açıkça programlanmadan veri ve deneyimlerden öğrenmesini ve performansını artırmasını sağlayan yapay zeka ve bilgisayar bilimi alt dalıdır.",
+				"Makine öğrenmesi algoritmaları, verilerden örüntüler çıkararak gelecekteki olayları tahmin etme veya kararlar verme yeteneği kazanır. Bu, büyük veri setlerinden anlamlı içgörüler elde etmek için kullanılır.",
+				"Üç ana makine öğrenmesi türü vardır: Gözetimli Öğrenme (etiketli verilerle eğitim), Gözetimsiz Öğrenme (etiketlenmemiş verilerden örüntü çıkarma) ve Pekiştirmeli Öğrenme (deneme-yanılma yoluyla öğrenme).",
+				"Makine öğrenmesi; görüntü ve konuşma tanıma, doğal dil işleme, öneri sistemleri, otonom araçlar ve tıbbi teşhis gibi birçok alanda uygulanmaktadır.",
+				"Derin öğrenme, makine öğrenmesinin bir alt kümesidir ve çok katmanlı yapay sinir ağlarını kullanarak karmaşık problemleri çözmeyi amaçlar."
+			],
+			"image": "/images/ml.jpg",
+			"relatedTerms": ["Yapay Zeka", "Derin Öğrenme", "Veri Madenciliği", "Sinir Ağları"]
+		}
+	],
+	"N": [
+		{
+			"title": "NoSQL",
+			"shortDescription": "İlişkisel olmayan, esnek şemalı veritabanı sistemleri için kullanılan genel terim.",
+			"fullDescription": [
+				"NoSQL (Not Only SQL), geleneksel ilişkisel veritabanı yönetim sistemlerinden farklı yapıda olan, esnek şemalı veritabanı sistemleri için kullanılan genel bir terimdir.",
+				"NoSQL veritabanları, büyük hacimli, hızlı değişen ve yapılandırılmamış veriyi işlemek için tasarlanmıştır. Bu tür veritabanları, ölçeklenebilirlik ve performans avantajları sunar.",
+				"Dört ana NoSQL veritabanı türü vardır: Doküman tabanlı (MongoDB), anahtar-değer (Redis), geniş sütun (Cassandra) ve graf (Neo4j) veritabanları.",
+				"NoSQL veritabanları genellikle ACID (Atomicity, Consistency, Isolation, Durability) özelliklerinden bazılarını gevşeterek, CAP teoreminde belirtilen dağıtık sistem özelliklerini dengelemeye çalışır.",
+				"Bu veritabanları, web uygulamaları, büyük veri analitiği, gerçek zamanlı sistemler ve IoT (Nesnelerin İnterneti) gibi alanlarda yaygın olarak kullanılmaktadır."
+			],
+			"image": "/images/nosql.jpg",
+			"relatedTerms": ["SQL", "Veritabanı", "MongoDB", "Redis", "Cassandra"]
+		}
+	],
+	"O": [
+		{
+			"title": "OOP (Object-Oriented Programming)",
+			"shortDescription": "Yazılımı, birbiriyle etkileşim halinde olan nesneler olarak modelleyen bir programlama paradigması.",
+			"fullDescription": [
+				"OOP (Object-Oriented Programming - Nesne Yönelimli Programlama), yazılımı birbiriyle etkileşim halinde olan nesneler olarak modelleyen bir programlama paradigmasıdır.",
+				"Bu yaklaşımda, veriler ve bu veriler üzerinde çalışan fonksiyonlar 'nesne' adı verilen yapılar içinde bir araya getirilir. Nesneler, gerçek dünyadaki varlıkları temsil eder ve özellikler (attributes) ve davranışlar (methods) içerir.",
+				"OOP'nin dört temel prensibi vardır: Encapsulation (Kapsülleme), Inheritance (Kalıtım), Polymorphism (Çok Biçimlilik) ve Abstraction (Soyutlama).",
+				"Bu paradigma, kodun yeniden kullanılabilirliğini artırır, karmaşıklığı azaltır ve büyük ölçekli yazılım projelerinin yönetimini kolaylaştırır.",
+				"Java, C++, Python, C# gibi birçok modern programlama dili, OOP paradigmasını destekler ve kullanır."
+			],
+			"image": "/images/oop.png",
+			"relatedTerms": ["Class", "Inheritance", "Polymorphism", "Encapsulation"]
+		}
+	],
+	"P": [
+		{
+			"title": "Python",
+			"shortDescription": "Yüksek seviyeli, genel amaçlı ve yorumlamalı bir programlama dili.",
+			"fullDescription": [
+				"Python, Guido van Rossum tarafından 1991 yılında geliştirilmiş, yüksek seviyeli, genel amaçlı ve yorumlamalı bir programlama dilidir.",
+				"Temiz ve okunabilir syntax'ı, zengin standart kütüphanesi ve geniş üçüncü parti modül ekosistemi ile Python, hem başlangıç seviyesindeki programcılar hem de profesyoneller için popüler bir dildir.",
+				"Python, web geliştirme, veri analizi, yapay zeka ve makine öğrenmesi, bilimsel hesaplama, otomasyon ve scripting gibi çeşitli alanlarda yaygın olarak kullanılmaktadır.",
+				"Dinamik tipleme ve otomatik bellek yönetimi gibi özellikleri, hızlı prototipleme ve geliştirme süreçlerini kolaylaştırır.",
+				"Django, Flask gibi web frameworkleri, NumPy, Pandas gibi veri işleme kütüphaneleri ve TensorFlow, PyTorch gibi makine öğrenmesi frameworkleri Python ekosisteminin önemli parçalarıdır."
+			],
+			"image": "/images/python.png",
+			"relatedTerms": ["Scripting", "Django", "Machine Learning", "Data Science"]
+		}
+	],
+	"Q": [
+		{
+			"title": "Query Optimization",
+			"shortDescription": "Veritabanı sorgularının performansını artırmak için yapılan optimizasyon işlemleri.",
+			"fullDescription": [
+				"Query Optimization (Sorgu Optimizasyonu), veritabanı sorgularının performansını artırmak ve daha hızlı sonuçlar elde etmek için yapılan optimizasyon işlemlerini ifade eder.",
+				"Veritabanı sorguları, büyük veri tablolarında karmaşık işlemler gerçekleştirebilir ve yanlış yapıldığında performans sorunlarına yol açabilir.",
+				"Sorgu optimizasyonu, sorgu planlama, indeksleme, istatistiklerin güncellenmesi, join işlemlerinin iyileştirilmesi ve veritabanı şemasının optimize edilmesi gibi teknikleri içerir.",
+				"İyi bir sorgu optimizasyonu, sorguların daha hızlı çalışmasını, daha az CPU ve bellek kullanımını ve daha az disk giriş/çıkış işlemi gerektirmesini sağlar.",
+				"Veritabanı yönetim sistemleri (RDBMS) genellikle sorgu optimizasyonu için otomatik optimizasyon mekanizmaları sağlar, ancak geliştiricilerin de sorgularını optimize etmeleri önemlidir."
+			],
+			"image": "/images/query.png",
+			"relatedTerms": ["Veritabanı", "SQL", "Indexing", "Join", "Database Tuning"]
+		}
+	],
+	"R": [
+		{
+			"title": "REST (Representational State Transfer)",
+			"shortDescription": "Dağıtık sistemler için tasarlanmış bir yazılım mimarisi stili.",
+			"fullDescription": [
+				"REST (Representational State Transfer), dağıtık sistemler, özellikle web servisleri için tasarlanmış bir yazılım mimarisi stilidir.",
+				"RESTful sistemler, istemci-sunucu modelini kullanır ve durumsuz iletişim prensibiyle çalışır. Her istek, sunucuya gerekli tüm bilgiyi içermelidir.",
+				"REST mimarisi, kaynakları benzersiz URL'ler ile tanımlar ve bu kaynaklara erişmek için standart HTTP metodlarını (GET, POST, PUT, DELETE vb.) kullanır.",
+				"REST API'leri genellikle JSON veya XML formatında veri alışverişi yapar, bu da farklı platformlar ve diller arasında kolay entegrasyon sağlar.",
+				"Ölçeklenebilirlik, esneklik ve basitlik, REST mimarisinin öne çıkan avantajlarıdır. Bu nedenle, modern web ve mobil uygulamaların backend sistemlerinde yaygın olarak kullanılır."
+			],
+			"image": "/images/rest.jpg",
+			"relatedTerms": ["API", "HTTP", "Web Servisi", "Microservices"]
+		}
+	],
+	"S": [
+		{
+			"title": "SQL (Structured Query Language)",
+			"shortDescription": "İlişkisel veritabanı yönetim sistemlerinde veri sorgulama ve yönetme için kullanılan standart dil.",
+			"fullDescription": [
+				"SQL (Structured Query Language), ilişkisel veritabanı yönetim sistemlerinde (RDBMS) veri sorgulama, manipüle etme ve yönetme için kullanılan standart bir dildir.",
+				"1970'lerde IBM tarafından geliştirilen SQL, veritabanlarında veri ekleme, güncelleme, silme ve sorgulama işlemlerini gerçekleştirmek için kullanılır.",
+				"SQL, declarative bir dildir, yani kullanıcı ne istediğini belirtir, nasıl yapılacağını değil. DBMS, sorguyu optimize ederek en verimli şekilde çalıştırır.",
+				"Temel SQL komutları arasında SELECT (veri sorgulama), INSERT (veri ekleme), UPDATE (veri güncelleme), DELETE (veri silme) ve CREATE TABLE (tablo oluşturma) bulunur.",
+				"MySQL, PostgreSQL, Oracle, SQL Server gibi popüler veritabanı sistemleri SQL dilini kullanır, ancak her birinin kendine özgü ek özellikleri ve syntax varyasyonları olabilir."
+			],
+			"image": "/images/sql.png",
+			"relatedTerms": ["Veritabanı", "RDBMS", "MySQL", "PostgreSQL", "Query Optimization"]
+		}
+	],
+	"T": [
+		{
+			"title": "TDD (Test-Driven Development)",
+			"shortDescription": "Önce test yazıp sonra kodu geliştirmeye dayanan bir yazılım geliştirme yaklaşımı.",
+			"fullDescription": [
+				"TDD (Test-Driven Development - Test Güdümlü Geliştirme), yazılım geliştirme sürecinde önce testlerin yazıldığı, sonra bu testleri geçecek kodun geliştirildiği bir yaklaşımdır.",
+				"TDD döngüsü üç adımdan oluşur: Red (başarısız bir test yaz), Green (testi geçecek minimum kodu yaz), Refactor (kodu iyileştir).",
+				"Bu yaklaşım, yazılımın tasarımını iyileştirir, hataları erkenden tespit eder ve kodun bakımını kolaylaştırır. Ayrıca, geliştirici güvenini artırır ve dokümantasyon görevi görür.",
+				"TDD, özellikle Agile ve Extreme Programming (XP) metodolojileriyle uyumludur ve sürekli entegrasyon (CI) süreçlerini destekler.",
+				"Birim testleri TDD'nin temelini oluştursa da, entegrasyon ve uçtan uca testler de bu yaklaşımın bir parçası olabilir."
+			],
+			"image": "/images/tdd.png",
+			"relatedTerms": ["Unit Testing", "Continuous Integration", "Agile", "Refactoring"]
+		}
+	],
+	"U": [
+		{
+			"title": "UI (User Interface)",
+			"shortDescription": "Kullanıcının bir yazılım veya donanımla etkileşime girdiği arayüz.",
+			"fullDescription": [
+				"UI (User Interface - Kullanıcı Arayüzü), bir insan (kullanıcı) ile bir bilgisayar sistemi arasındaki etkileşimin gerçekleştiği noktadır.",
+				"İyi tasarlanmış bir UI, kullanıcının sistemi etkili, verimli ve keyifli bir şekilde kullanmasını sağlar. Bu, butonlar, menüler, formlar, grafikler ve diğer interaktif elemanları içerir.",
+				"UI tasarımı, görsel tasarım, etkileşim tasarımı ve bilgi mimarisi gibi alanları kapsar. Kullanılabilirlik, erişilebilirlik ve kullanıcı deneyimi (UX) temel prensipler arasındadır.",
+				"Web siteleri, mobil uygulamalar, masaüstü uygulamaları ve diğer dijital araçlar, etkili bir UI tasarımı gerektirir. Bu, kullanıcıların hızlıca hedeflerine ulaşmalarını ve istedikleri işlemleri gerçekleştirmelerini sağlar.",
+				"UI tasarımı, kullanıcı geri bildirimleri ve testlerle sürekli olarak iyileştirilmeli ve güncellenmelidir."
+			],
+			"image": "/images/ui.jpeg",
+			"relatedTerms": ["UX", "Interaksiyon Tasarımı", "Kullanılabilirlik", "Web Tasarımı"]
+		}
+	],
+	"V": [
+		{
+			"title": "Virtual Machine",
+			"shortDescription": "Fiziksel bir bilgisayarın yazılımsal olarak simüle edilmiş versiyonu.",
+			"fullDescription": [
+				"Virtual Machine (Sanal Makine), fiziksel bir bilgisayarın yazılımsal olarak simüle edilmiş bir versiyonudur. Bu sanal makineler, farklı işletim sistemlerini aynı fiziksel donanım üzerinde çalıştırmak için kullanılır.",
+				"Sanallaştırma teknolojisi, bir ana bilgisayar üzerinde birden çok izole çalışma ortamı oluşturarak kaynakları daha verimli kullanmayı sağlar.",
+				"Virtual Machine Monitor (VMM) veya Hypervisor adı verilen yazılımlar, sanal makinelerin oluşturulmasını, yönetilmesini ve izlenmesini sağlar.",
+				"Sanal makineler, yazılım geliştirme, test ve dağıtım süreçlerinde, bulut bilişim altyapılarında ve güvenlik uygulamalarında yaygın olarak kullanılır.",
+				"Popüler sanallaştırma platformları arasında VMware, VirtualBox, Hyper-V ve KVM (Kernel-based Virtual Machine) sayılabilir."
+			],
+			"image": "/images/vm.png",
+			"relatedTerms": ["Sanallaştırma", "Hypervisor", "Bulut Bilişim", "Test Ortamı"]
+		}
+	],
+	"W": [
+		{
+			"title": "Web Development",
+			"shortDescription": "Web siteleri ve web uygulamaları oluşturmak için kullanılan yazılım geliştirme süreci.",
+			"fullDescription": [
+				"Web Development (Web Geliştirme), web siteleri ve web uygulamaları oluşturmak için kullanılan yazılım geliştirme sürecidir.",
+				"Web geliştirme, web tasarımı (UI/UX), istemci ve sunucu taraflı programlama, veritabanı yönetimi ve web sunucusu konfigürasyonu gibi farklı disiplinleri içerir.",
+				"Front-end geliştirme, kullanıcı arayüzü oluşturma ve web tarayıcılarında çalışacak kodları yazma işlemlerini kapsar. HTML, CSS ve JavaScript bu alanda yaygın olarak kullanılan teknolojilerdir.",
+				"Back-end geliştirme, sunucu taraflı programlama ve veritabanı yönetimini içerir. Bu kısımda PHP, Python, Ruby, Java, Node.js gibi teknolojiler tercih edilir.",
+				"Full-stack geliştirme, hem front-end hem de back-end teknolojilerini kullanan ve tüm web uygulamasını geliştirebilen geliştiricileri ifade eder."
+			],
+			"image": "/images/web-development.jpg",
+			"relatedTerms": ["Front-End", "Back-End", "Full-Stack", "Web Uygulaması"]
+		}
+	],
+	"X": [
+		{
+			"title": "XML (eXtensible Markup Language)",
+			"shortDescription": "Veri depolamak ve taşımak için kullanılan metin tabanlı bir işaretleme dilidir.",
+			"fullDescription": [
+				"XML (eXtensible Markup Language), veri depolamak ve taşımak için kullanılan metin tabanlı bir işaretleme dilidir.",
+				"HTML'e benzer bir syntax'a sahip olan XML, insanlar ve makineler arasında okunabilir veri formatları oluşturmak için kullanılır.",
+				"XML belgeleri, ağaç yapısında ve hiyerarşik bir formatta verileri temsil eder. Anahtar-değer çiftleri ve etiketler aracılığıyla yapılandırılmış veriler içerir.",
+				"Web servislerinde, konfigürasyon dosyalarında, veritabanlarında ve belge depolama alanlarında XML sıkça kullanılır.",
+				"JSON'a göre daha karmaşık bir syntax'a sahip olması ve daha fazla karakter kullanması, XML'in bazı durumlarda daha az tercih edilmesine neden olmuştur."
+			],
+			"image": "/images/xml.jpg",
+			"relatedTerms": ["HTML", "JSON", "Veri Formatı", "Web Servisi"]
+		}
+	],
+	"Y": [
+		{
+			"title": "YAML (YAML Ain't Markup Language)",
+			"shortDescription": "İnsanlar ve makineler arasında okunabilir veri formatları oluşturmak için kullanılan bir işaretleme dilidir.",
+			"fullDescription": [
+				"YAML (YAML Ain't Markup Language), insanlar ve makineler arasında okunabilir veri formatları oluşturmak için kullanılan bir işaretleme dilidir.",
+				"YAML, JSON ve XML'e benzer bir syntax'a sahiptir ancak daha az karakter kullanımı ve daha basit bir yapıya sahiptir.",
+				"YAML, özellikle konfigürasyon dosyaları ve veri serileştirme işlemleri için tercih edilir. Ansible, Kubernetes, Docker Compose gibi araçlar YAML formatını kullanır.",
+				"YAML, insanlar tarafından kolayca okunabilir ve anlaşılabilir olması nedeniyle belgeleme ve yapılandırma dosyalarında yaygın olarak kullanılır.",
+				"YAML, açık ve esnek bir yapıya sahiptir ve birden çok programlama dilinde desteklenir."
+			],
+			"image": "/images/yaml.jpg",
+			"relatedTerms": ["Konfigürasyon", "Ansible", "Docker", "Veri Serileştirme"]
+		}
+	],
+	"Z": [
+		{
+			"title": "Zero-Day",
+			"shortDescription": "Henüz kamuya açıklanmamış ve düzeltilmemiş bir yazılım güvenlik açığıdır.",
+			"fullDescription": [
+				"Zero-Day, henüz kamuya açıklanmamış ve düzeltilmemiş bir yazılım güvenlik açığıdır. Bu tür açıklar, saldırganların sisteme sızmasına ve zararlı yazılımlarını yaymasına olanak tanır.",
+				"Zero-Day açıklarının tehlikeli olmasının nedeni, yazılım geliştiricilerin henüz bir yama veya düzeltme yayınlamamış olmasıdır.",
+				"Saldırganlar, Zero-Day açıkları üzerinden hızla yayılan saldırılar gerçekleştirebilir ve hedef sistemlerde büyük zararlara yol açabilir.",
+				"Zero-Day açıklarının tespit edilmesi ve kapatılması genellikle zor ve zaman alıcı bir süreçtir. Bu nedenle, yazılım güvenliği uzmanları ve araştırmacılar bu tür açıkları tespit etmek ve raporlamak için çalışır.",
+				"Yazılım geliştiriciler, Zero-Day saldırılarına karşı savunma mekanizmaları geliştirir ve güvenlik açıklarını en kısa sürede kapatmak için çalışırlar."
+			],
+			"image": "/images/zero_day_vulnerability.webp",
+			"relatedTerms": ["Siber Güvenlik", "Zararlı Yazılım", "Exploit", "Yama"]
+		}
+	]
+}
